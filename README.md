@@ -2,15 +2,13 @@
 To gain understanding of the GO language. And application of same in developing a very basic level http server.
 
 
-
 ### OCR
 Extracts text from a .png file and prints it to console<br/>
 lib - github.com/otiai10/gosseract
 
 ### OCR_Vision
 Demonstrates the use of Google's Vision lib for OCR in a pdf.<br/>
-Extracts text from a pdf saved on Google Cloud
-
+Extracts text from a pdf saved on Google Cloud<br/>
 lib - cloud.google.com/go/vision/apiv1
 
 ### PDF_Reader
@@ -32,7 +30,7 @@ Arguments - 1. URL of the online pdf. 2. Output path where the extracted images 
 lib - github.com/unidoc/unipdf/extractor
 
 ### http_server 
-<br/>http://localhost:8000/fetch?date=03DEC2019
+http://localhost:8000/fetch?date=03DEC2019<br/>
 Demostrates the usage of net/http lib to develop a server.<br/>
 Uses query param 'Date' to formulate a dynamic url that will download a zip folder containing a .csv file. The .csv file is further saved to local storage, content records are read and passes back as response.<br/>
 The 'Date' param is validated for correct date format. In case of error, an error string to returned as a response.
